@@ -7,6 +7,6 @@ services:
       - SERVICES=sqs,sns
       - AWS_DEFAULT_REGION=us-east-1
       - EDGE_PORT=4566
-      - LOCALSTACK_API_KEY=50hpkSDWJ3
+      - LOCALSTACK_API_KEY=1Y5gXaMouG
     ports:
       - '4566-4597:4566-4597'
